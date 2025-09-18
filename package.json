@@ -22,11 +22,19 @@
   "description": "To install dependencies:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "build": "tsc",
+    "dev": "tsc && nodemon dist/index.js",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Favour-chuks/weather-news-webscraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Favour-chuks/weather-news-webscraper/issues"
+  },
+  "homepage": "https://github.com/Favour-chuks/weather-news-webscraper#readme"
 }
